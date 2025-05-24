@@ -67,6 +67,7 @@ social:
     - "https://www.linkedin.com/in/ahmecse/"
     - "https://github.com/ahmecse"
     - "https://www.kaggle.com/ahmecse"
+    - "https://x.com/ahme_cse"
 
 # Analytics
 analytics:
@@ -90,7 +91,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "ahmecse"
   foursquare       :
   github           : "ahmecse"
   google_plus      :
@@ -108,7 +109,7 @@ author:
   twitter          : 
   vine             :
   weibo            :
-  xing             :
+  xing             : "ahme_cse"
   youtube          :
   wikipedia        :
   kaggle           : "ahmecse"
