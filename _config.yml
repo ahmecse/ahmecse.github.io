@@ -1,9 +1,9 @@
 # Site wide configuration
 
 locale                   : "en-US"
-title                    : "Ahmed Shmels Muhe"
+title                    : "Ahmed Shmels"
 title_separator          : "-"
-name                     : &name "Ahmed Shmels Muhe"
+name                     : &name "Ahmed Shmels"
 description              : &description "Research Interests: Causality in RL; RL; RL for LLMs; Multi-Agent RL; Multi-Agent Reasoning; Representation Learning"
 url                      : https://ahmecse.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
