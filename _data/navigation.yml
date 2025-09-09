@@ -15,8 +15,11 @@ main:
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "/blog"
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "blog"
     url: /blog/
-    
+
   - title: "CV"
     url: /cv/
