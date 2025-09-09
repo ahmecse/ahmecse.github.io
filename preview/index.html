@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -76,5 +76,138 @@
                 </ul>
             </div>
         </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Shmels - Portfolio Preview</title>
+  <style>
+    :root {
+      --main-bg: #f4f6fb;
+      --header-gradient: linear-gradient(135deg, #28243d, #7267cb 95%);
+      --primary: #7267cb;
+      --accent: #ff79c6;
+      --card-bg: #fff;
+      --shadow: 0 4px 14px rgba(34, 32, 52, 0.07);
+      --border: #e8e8ee;
+      --text-main: #22223b;
+      --text-muted: #4b4960;
+    }
+
+    body {
+      background: var(--main-bg);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: var(--text-main);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto 0 auto;
+      background: var(--card-bg);
+      border-radius: 15px;
+      box-shadow: var(--shadow);
+      padding: 0 0 40px 0;
+    }
+
+    header {
+      background: var(--header-gradient);
+      color: white;
+      padding: 38px 30px 22px 30px;
+      text-align: center;
+      border-radius: 15px 15px 0 0;
+    }
+
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+      font-weight: 900;
+      color: var(--accent);
+      text-shadow: 0 2px 8px rgba(34, 32, 52, 0.18);
+    }
+    header p {
+      margin: 0;
+      font-size: 1.13em;
+      font-weight: 400;
+      color: #e3e2eb;
+    }
+
+    .profile {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 40px 40px 0 40px;
+      flex-wrap: wrap;
+    }
+    .profile img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 3px 16px rgba(34, 32, 52, 0.07);
+      border: 3px solid var(--primary);
+    }
+    .profile > div {
+      flex: 1 1 340px;
+      min-width: 240px;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.35em;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 5px;
+      color: var(--primary);
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .profile ul {
+      margin: 0;
+      padding: 0 0 0 18px;
+      color: var(--text-muted);
+    }
+    .profile li strong {
+      color: var(--primary);
+    }
+    .profile p {
+      margin-bottom: 10px;
+      margin-top: 0;
+      color: var(--text-main);
+      font-size: 1.01em;
+    }
+
+    @media (max-width: 800px) {
+      .container { padding: 0 0 26px 0; }
+      .profile { flex-direction: column; gap: 20px; padding: 26px 20px 0 20px; }
+      header { padding: 28px 10px 16px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ahmed Shmels</h1>
+      <p>Research: Causality in RL · RL for LLMs · Multi-Agent RL · Multi-Agent Reasoning · Representation Learning</p>
+    </header>
+    <div class="profile">
+      <img src="../images/profile_small.png" alt="Ahmed Shmels photo" />
+      <div>
+        <h2>About Me</h2>
+        <p>I am an M.Tech graduate in Data Science from IIT Madras (2024) and B.Tech CSE from VIT (2022). Previous Project Associate at RBCDSAI, IIT Madras with Prof. B. Ravindran.</p>
+        <p>My research focuses on reinforcement learning, especially for large language models (LLMs).</p>
+        <ul>
+          <li><strong>Current:</strong> RL for LLMs</li>
+          <li><strong>Collaboration:</strong> RL, LLMs, Causality, Multi-Agent Systems</li>
+          <li><strong>Expertise:</strong> ML · DL · CV · NLP · RL</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
