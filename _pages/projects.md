@@ -5,42 +5,171 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Reinforcement Learning (RL)
+<!-- Projects/Research Section -->
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title">Research & Projects</h2>
+    
+    <!-- Reinforcement Learning Section -->
+    <div class="project-category">
+      <h3 class="category-title">🎯 Reinforcement Learning (RL)</h3>
+      
+      <div class="publication-item">
+        <div class="pub-image">
+          <img src="./assets/projects/rl-assignments.png" alt="RL Assignments" />
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">Comprehensive RL Implementation Suite: SARSA, Q-Learning, Hierarchical RL & Policy Gradients</h3>
+          <div class="pub-authors"><strong>Ahmed Shmels</strong></div>
+          <div class="pub-venue">Reinforcement Learning <strong>(CS6700)</strong>, IIT Madras, 2024</div>
+          <div class="pub-description">Complete implementations of core RL algorithms including SARSA, Q-Learning, Dueling DQN variants, REINFORCE, and Hierarchical RL with SMDP & Intra-Option Q-Learning on various environments.</div>
+          <div class="pub-links">
+            <a href="https://github.com/ahmecse/RL-Assignments-1-IITM-CS6700" class="pub-link code">Assignment 1 (SARSA/Q-Learning)</a>
+            <a href="https://github.com/ahmecse/RL-Assignments-2-IITM-CS6700" class="pub-link code">Assignment 2 (Dueling DQN/REINFORCE)</a>
+            <a href="https://github.com/ahmecse/RL-Assignments-3-IITM-CS6700" class="pub-link code">Assignment 3 (Hierarchical RL)</a>
+          </div>
+        </div>
+      </div>
 
-*   **RL Assignments (IITM CS6700):** Implementations including SARSA, Q-Learning, Hierarchical RL (SMDP & Intra-Option Q-Learning) , Dueling DQN, and REINFORCE.
-    *   [Assignment 1 (SARSA/Q-Learning)](https://github.com/ahmecse/RL-Assignments-1-IITM-CS6700): Comparison of SARSA & Q-Learning in Grid World variants.
-    *   [Assignment 2 (Dueling DQN/REINFORCE)](https://github.com/ahmecse/RL-Assignments-2-IITM-CS6700): Training Dueling DQN variants and Monte Carlo REINFORCE.
-    *   [Assignment 3 (Hierarchical RL)](https://github.com/ahmecse/RL-Assignments-3-IITM-CS6700): Hierarchical RL in Taxi-v3 using SMDP & Intra-Option Q-Learning.
-*   **[RL4LLM Framework](https://github.com/ahmecse/RL4LLM):** Toolkit for RL-based Large Language Model fine-tuning.
-*   **[RL-Research Suite](https://github.com/ahmecse/rl-research):** Collection of benchmark Reinforcement Learning environments and algorithms.
+      <div class="publication-item">
+        <div class="pub-image">
+          <img src="./assets/projects/rl4llm.gif" alt="RL4LLM Framework" />
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">RL4LLM: Reinforcement Learning Framework for Large Language Model Fine-tuning</h3>
+          <div class="pub-authors"><strong>Ahmed Shmels</strong></div>
+          <div class="pub-venue">Advanced LLM Agents <strong>(CS294)</strong>, UC Berkeley, 2025</div>
+          <div class="pub-description">Comprehensive toolkit implementing GRPO and other RL algorithms for fine-tuning large language models with human feedback and reward optimization.</div>
+          <div class="pub-links">
+            <a href="https://github.com/ahmecse/RL4LLM" class="pub-link code">💻 Framework</a>
+            <a href="https://github.com/ahmecse/rl-research" class="pub-link code">💻 Research Suite</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-## Natural Language Processing (NLP)
+    <!-- NLP Section -->
+    <div class="project-category">
+      <h3 class="category-title">🔤 Natural Language Processing (NLP)</h3>
+      
+      <div class="publication-item">
+        <div class="pub-image">
+          <img src="./assets/projects/nlp-ir.png" alt="NLP IR System" />
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">Advanced Information Retrieval System with Causal NLP Integration</h3>
+          <div class="pub-authors"><strong>Ahmed Shmels</strong></div>
+          <div class="pub-venue">Natural Language Processing <strong>(CS6370)</strong>, IIT Madras, 2024</div>
+          <div class="pub-description">Built comprehensive IR system with causal inference tools tailored for NLP tasks, featuring advanced retrieval algorithms and causality-aware language processing.</div>
+          <div class="pub-links">
+            <a href="https://github.com/ahmecse/CS6370-NLP-IR-System-Project-IITM" class="pub-link code">💻 IR System</a>
+            <a href="https://github.com/ahmecse/causal-nlp" class="pub-link code">💻 Causal-NLP</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-*   **[NLP Information Retrieval System (IITM CS6370)](https://github.com/ahmecse/CS6370-NLP-IR-System-Project-IITM):** Project focusing on building an Information Retrieval system.
-*   **[Causal-NLP](https://github.com/ahmecse/causal-nlp):** Development of causal inference tools tailored for Natural Language Processing tasks.
+    <!-- Machine Learning Section -->
+    <div class="project-category">
+      <h3 class="category-title">🤖 Machine Learning (ML)</h3>
+      
+      <div class="publication-item">
+        <div class="pub-image">
+          <img src="./assets/projects/ml-essays.png" alt="ML Mathematical Essays" />
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">Mathematical Essays on Fundamental Machine Learning Algorithms</h3>
+          <div class="pub-authors"><strong>Ahmed Shmels</strong></div>
+          <div class="pub-venue">Independent Research Series, 2023-2024</div>
+          <div class="pub-description">In-depth mathematical explorations and theoretical analysis of core ML algorithms including SVMs, Random Forests, Decision Trees, Naive Bayes, and Regression techniques.</div>
+          <div class="pub-links">
+            <a href="https://github.com/ahmecse/A-Mathematical-Essay-on-Support-Vector-Machine" class="pub-link pdf">📄 SVM Essay</a>
+            <a href="https://github.com/ahmecse/A-Mathematical-essay-on-Random-Forest" class="pub-link pdf">📄 Random Forest</a>
+            <a href="https://github.com/ahmecse/A-Mathematical-essay-on-decision-trees" class="pub-link pdf">📄 Decision Trees</a>
+            <a href="https://github.com/ahmecse/Mathematical-essay-on-naive-Bayes-classifier" class="pub-link pdf">📄 Naive Bayes</a>
+            <a href="https://github.com/ahmecse/Mathematical-essay-on-Logistic-Regression" class="pub-link pdf">📄 Logistic Regression</a>
+            <a href="https://github.com/ahmecse/A-Mathematical-essay-on-linear-regression" class="pub-link pdf">📄 Linear Regression</a>
+          </div>
+        </div>
+      </div>
 
-## Machine Learning (ML)
+      <div class="publication-item">
+        <div class="pub-image">
+          <img src="./assets/projects/house-prices.png" alt="House Price Prediction" />
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">Advanced Regression Techniques for House Price Prediction</h3>
+          <div class="pub-authors"><strong>Ahmed Shmels</strong></div>
+          <div class="pub-venue">Applied Machine Learning Project, 2023</div>
+          <div class="pub-description">Comprehensive implementation of advanced regression techniques including regularization, ensemble methods, and feature engineering for accurate house price prediction.</div>
+          <div class="pub-links">
+            <a href="https://github.com/ahmecse/Advanced-Regression-for-House-Price-Prediction" class="pub-link code">💻 Code</a>
+            <a href="#" class="pub-link page">🌐 Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-*   **Mathematical Essays on ML Algorithms:** In-depth mathematical explorations of fundamental ML models.
-    *   [Support Vector Machine](https://github.com/ahmecse/A-Mathematical-Essay-on-Support-Vector-Machine): Mathematical essay on SVMs.
-    *   [Random Forest](https://github.com/ahmecse/A-Mathematical-essay-on-Random-Forest): Mathematical essay on Random Forests.
-    *   [Decision Trees](https://github.com/ahmecse/A-Mathematical-essay-on-decision-trees): Mathematical essay on Decision Trees.
-    *   [Naive Bayes Classifier](https://github.com/ahmecse/Mathematical-essay-on-naive-Bayes-classifier): Mathematical essay on Naive Bayes.
-    *   [Logistic Regression](https://github.com/ahmecse/Mathematical-essay-on-Logistic-Regression): Mathematical essay on Logistic Regression.
-    *   [Linear Regression](https://github.com/ahmecse/A-Mathematical-essay-on-linear-regression): Mathematical essay on Linear Regression.
-*   **[Advanced Regression - House Prices](https://github.com/ahmecse/Advanced-Regression-for-House-Price-Prediction):** Application of advanced regression techniques for house price prediction.
+    <!-- Deep Learning Section -->
+    <div class="project-category">
+      <h3 class="category-title">🧠 Deep Learning (DL)</h3>
+      
+      <div class="publication-item">
+        <div class="pub-image">
+          <img src="./assets/projects/dl-assignments.gif" alt="Deep Learning Assignments" />
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">Complete Deep Learning Implementation Suite: FNN, CNN, and Seq2Seq Models</h3>
+          <div class="pub-authors"><strong>Ahmed Shmels</strong></div>
+          <div class="pub-venue">Deep Learning <strong>(CS6910)</strong>, IIT Madras, 2024</div>
+          <div class="pub-description">Built neural networks from scratch including feedforward networks with multiple optimizers, CNNs with interpretability techniques, and sequence-to-sequence models with attention for transliteration tasks.</div>
+          <div class="pub-links">
+            <a href="https://github.com/ahmecse/DL-Assignments-1-IITM-CS6910" class="pub-link code">Assignment 1 (FNN)</a>
+            <a href="https://github.com/ahmecse/DL-Assignments-2-IITM-CS6910" class="pub-link code">Assignment 2 (CNN)</a>
+            <a href="https://github.com/ahmecse/DL-Assignments-3-IITM-CS6910" class="pub-link code">Assignment 3 (Seq2Seq)</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-## Deep Learning (DL)
+    <!-- Computer Vision Section -->
+    <div class="project-category">
+      <h3 class="category-title">👁️ Computer Vision (CV)</h3>
+      
+      <div class="publication-item">
+        <div class="pub-image">
+          <img src="./assets/projects/covid-cxr.png" alt="COVID-19 CXR Classification" />
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">COVID-19 Detection from Chest X-Rays Using Advanced Transfer Learning</h3>
+          <div class="pub-authors"><strong>Ahmed Shmels</strong></div>
+          <div class="pub-venue">B.Tech Thesis, VIT Vellore, 2022</div>
+          <div class="pub-description">Deep learning system for automated COVID-19 detection from chest X-ray images using state-of-the-art transfer learning techniques and ensemble methods.</div>
+          <div class="pub-links">
+            <a href="https://github.com/ahmecse/BSc-Thesis-COVID19-CXR-TransferLearning" class="pub-link code">💻 Code</a>
+            <a href="#" class="pub-link pdf">📄 Thesis</a>
+          </div>
+          <div class="pub-note">Best Thesis Award</div>
+        </div>
+      </div>
 
-*   [DL Assignment 1 (IITM CS6910)](https://github.com/ahmecse/DL-Assignments-1-IITM-CS6910): Implemented a feedforward neural network from scratch with multiple optimizers and hyperparameter tuning.
-*   [DL Assignment 2 (IITM CS6910)](https://github.com/ahmecse/DL-Assignments-2-IITM-CS6910): Built a CNN from scratch, performed hyperparameter optimization, and applied interpretability techniques.
-*   [DL Assignment 3 (IITM CS6910)](https://github.com/ahmecse/DL-Assignments-3-IITM-CS6910): Developed sequence-to-sequence models (RNN/LSTM/GRU) with attention for English-to-Malayalam transliteration.
-
-## Computer Vision (CV)
-
-*   **[BSc Thesis - COVID-19 CXR Classification](https://github.com/ahmecse/BSc-Thesis-COVID19-CXR-TransferLearning):** Classification of COVID-19 from Chest X-Rays using Transfer Learning.
-*   **YOLO Object Detection:** Projects utilizing YOLO models for object detection tasks.
-    *   [Finding Cars from Aerial Images (YOLO-NAS/YOLOv8)](https://github.com/ahmecse/Find-Cars-from-Aerial-Images-Using-YOLO-NAS-YOLOV8): Using YOLO-NAS and YOLOv8 to detect cars in aerial imagery.
-    *   [Custom Dataset Object Detection/Segmentation/Classification (YOLOv8)](https://github.com/ahmecse/Ultralytics-YOLOv8-Object-Detection-Model---Detection-Segmentation-and-Classification-on-Custom-Data): Applying YOLOv8 for detection, segmentation, and classification on custom datasets.
-*   **[GreenVine - Early Plant Disease Detection](https://github.com/ahmecse/GreenVine-Early-Plant-Disease-Detection):** Computer vision project for early detection of plant diseases.
-*   **[Digit Recogniser](https://github.com/ahmecse/Digit-recogniser-computer-vision-):** A computer vision project for recognizing handwritten digits.
+      <div class="publication-item">
+        <div class="pub-image">
+          <img src="./assets/projects/yolo-aerial.gif" alt="YOLO Aerial Detection" />
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">YOLO-based Object Detection Suite: Aerial Imagery and Custom Datasets</h3>
+          <div class="pub-authors"><strong>Ahmed Shmels</strong></div>
+          <div class="pub-venue">Computer Vision Projects, 2023-2024</div>
+          <div class="pub-description">Comprehensive YOLO implementations for various applications including aerial car detection, plant disease detection, and custom object detection/segmentation pipelines.</div>
+          <div class="pub-links">
+            <a href="https://github.com/ahmecse/Find-Cars-from-Aerial-Images-Using-YOLO-NAS-YOLOV8" class="pub-link code">Aerial Detection</a>
+            <a href="https://github.com/ahmecse/Ultralytics-YOLOv8-Object-Detection-Model---Detection-Segmentation-and-Classification-on-Custom-Data" class="pub-link code">Custom YOLO</a>
+            <a href="https://github.com/ahmecse/GreenVine-Early-Plant-Disease-Detection" class="pub-link code">Plant Disease</a>
+            <a href="https://github.com/ahmecse/Digit-recogniser-computer-vision-" class="pub-link code">Digit Recognition</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
